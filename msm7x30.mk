@@ -70,13 +70,13 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm7x30
 
 # QCOM OMX
-PRODUCT_PACKAGES += \
-    libstagefrighthw \
-    libOmxCore \
-    libmm-omxcore \
-    libdivxdrmdecrypt \
-    libOmxVdec \
-    libOmxVenc
+# PRODUCT_PACKAGES += \
+ #  libstagefrighthw \
+ #   libOmxCore \
+ #  libmm-omxcore \
+ #  libdivxdrmdecrypt \
+  # libOmxVdec \
+  # libOmxVenc
 
 PRODUCT_PACKAGES += \
     power.msm7x30 \
