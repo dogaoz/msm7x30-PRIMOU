@@ -59,14 +59,15 @@ enum ion_heap_ids {
 	ION_HEAP_SMI_ID,
 	ION_HEAP_ADSP_ID,
 	ION_HEAP_AUDIO_ID,
+	ION_HEAP_ADSP2_ID,
 };
 
 #define ION_KMALLOC_HEAP_NAME	"kmalloc"
 #define ION_VMALLOC_HEAP_NAME	"vmalloc"
 #define ION_EBI1_HEAP_NAME	"EBI1"
 #define ION_ADSP_HEAP_NAME	"adsp"
+#define ION_ADSP2_HEAP_NAME	"adsp2"
 #define ION_SMI_HEAP_NAME	"smi"
-
 #define CACHED          1
 #define UNCACHED        0
 
